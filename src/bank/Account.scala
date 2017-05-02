@@ -1,7 +1,7 @@
 package bank
 
 class Account(val customer: Customer, val id: String) {
-  private var _balance: Int = 0
+  private[this] var _balance: Int = 0
   
   customer.addAccount(this)
   
