@@ -1,0 +1,5 @@
+package stackqueue
+
+trait Stack {
+  
+}
